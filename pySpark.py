@@ -1,5 +1,5 @@
-# reads a large file consisting of random integers sperated by spaces and outputs the maximum integer given
-# it appears for more than 'k' number of times in the file. k = 50 in this example.
+# uses python's spark library pyspark to read a large file consisting of random integers sperated by spaces and outputs the maximum integer given
+# it appears more than 'k' number of times in the file. k = 50 in this example.
 
 import pyspark
 import operator
